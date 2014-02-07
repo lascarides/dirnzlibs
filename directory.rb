@@ -524,7 +524,7 @@ CSV.foreach('directory.csv', :headers => true) do |row|
 		outputs[@row['Symbol']] = @row
 	else
 		@row.each do |k,v|
-			if outputs[@row['Symbol']][k].to_s.strip != @row[k].to_s.strip
+			if outputs[@row['Symbol']][k].to_s.strip != @row[k].to_s.strip 
 
 				interloan_fields = [
 					'Interloan Librarian',
@@ -534,17 +534,20 @@ CSV.foreach('directory.csv', :headers => true) do |row|
 					'Fax interloan'
 				]
 
-				# Flag that this record has more than one interloan librarian
-				multiple_interloans = multiple_interloans | k == 'Interloan Librarian'
+				# Records with multiple interloan librarians
+				# FIXME: Hardcoded. Can we figure out an algorithm here?
+				multiple_interloans = ['APMRL', 'KTP', 'OTM', 'WIN']
 
-				if interloan_fields.include? k and multiple_interloans
-					# Does this record have more than one interloan librarian?
-					# If so, use the Alt fields
-					outputs[@row['Symbol']]['Alt ' + k] = v
-				elsif outputs[@row['Symbol']][k].to_s.strip != '' and @row[k].to_s.strip != ''
-					# Is this just two different values for one field? 
-					# If so, use the latest one.
-					outputs[@row['Symbol']][k] = v
+				if outputs[@row['Symbol']][k].to_s.strip != '' and @row[k].to_s.strip != ''
+					if interloan_fields.include? k and multiple_interloans.include? @row['Symbol']
+						# Does this record have more than one interloan librarian?
+						# If so, use the Alt fields
+						outputs[@row['Symbol']]['Alt ' + k] = v
+					else 
+						# Is this just two different values for one field? 
+						# If so, use the latest one.
+						outputs[@row['Symbol']][k] = v
+					end
 				else
 					# Is this one value filled in and one blank?
 					# If so, use the filled in one.
@@ -575,11 +578,7 @@ cols = cols.split(',')
 
 outputs.each do |sym, row|
 	cols.each do |col|
-		# if row[col].to_s =~ /[,\n"]/
 		print '"' + row[col].to_s.gsub('"', '""').strip + '",'
-		# else
-		# 	print row[col].to_s.strip + ','
-		# end
 	end
 	puts
 end
