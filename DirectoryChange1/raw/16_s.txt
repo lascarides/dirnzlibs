@@ -1,0 +1,249 @@
+HTTP/1.1 404
+Date: Mon, 03 Mar 2014 21:05:31 GMT
+Server: Apache
+Cache-Control: private
+X-UA-Compatible: IE=Edge,chrome=1
+X-Request-Id: b789f050750046a4f0287e01ac130616
+X-Rack-Cache: miss
+Set-Cookie: _researchers_session=BAh7CkkiD3Nlc3Npb25faWQGOgZFRkkiJTZkYTlhYTJjYTg4YmUxYjcwNDQ5MTU4YTZiZDBjYjc3BjsAVEkiCWNhcnQGOwBGWwBJIhF2aWV3aW5nX2NhcnQGOwBGWwBJIhRmYXZvdXJpdGVzX2xpc3QGOwBGWwBJIhBfY3NyZl90b2tlbgY7AEZJIjFCYXJuTkVVbjNFZDh4TFBjYTRZLzBSQjZycWsrYyt6bHNLa3hXTHRuaGVZPQY7AEY%3D--a191d92b7014efb1d27394e8637c4d816e0f6b21; path=/; expires=Mon, 03-Mar-2014 23:05:31 GMT; HttpOnly
+X-Frame-Options: SAMEORIGIN
+Status: 404
+Cache-Control: max-age=31536000
+Expires: Tue, 03 Mar 2015 21:05:31 GMT
+Content-Length: 8514
+Content-Type: image/gif; charset=utf-8
+
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en-NZ" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-NZ" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-NZ" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-NZ" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-NZ" class="no-js"> <!--<![endif]-->
+  <head>
+  <meta charset='utf-8' />
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+  <title></title>
+        <meta content="authenticity_token" name="csrf-param" />
+<meta content="BarnNEUn3Ed8xLPca4Y/0RB6rqk+c+zlsKkxWLtnheY=" name="csrf-token" />  
+
+  <link href="/assets/application-5c8f40c18030f017db4dbc37da074bd6.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="/assets/print-d9b1b4735d0873c78499e4d1d031792f.css" media="print" rel="stylesheet" type="text/css" />
+  
+  
+  
+
+  <!--[if lt IE 7 ]>
+    <script src="/assets/dd_belatedpng-1cd36de2e2df976b0807bc4d9eac16df.js" type="text/javascript"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+  <![endif]-->
+
+<script src="/assets/snack-min-1ac2b0a62bdd1880ceebe7f78587ce50.js" type="text/javascript"></script>
+<script src="/assets/site-notice-280f7b2530551cc2a4997eaaee96ccc6.js" type="text/javascript"></script>
+
+  <script src="/assets/application-c3fcd78a5ce336af4c55470ce29b34ea.js" type="text/javascript"></script>
+
+
+  <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet -->
+<script type="text/javascript">
+// no search results tracker
+
+var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-4673060-18']);
+
+_gaq.push( 
+   ['_trackEvent', 'Error', '404', 'page: ' + document.location.pathname + document.location.search + ' ref: ' + document.referrer ] 
+);
+
+(function(d,t){
+   var g=d.createElement(t);
+   s=d.getElementsByTagName(t)[0];
+   g.async=1;
+   g.src='//www.google-analytics.com/ga.js';
+   s.parentNode.insertBefore(g,s);
+})(document,'script');
+
+ctr = 0;
+
+setTimeout(function() {
+   if (document.readyState == 'complete' && document.getElementsByClassName("no-results").length > 0) {  
+      var lbl = 'Search No Results: ' + document.getElementById('search-box').value;
+      _gaq.push(['_trackEvent', 'Search No Results', 'Search', lbl]);
+   }
+}, 500);
+
+</script>
+
+  <script src="/assets/modernizr-min-9dc37a7102c8a9d7e2cd51e29bce3b06.js" type="text/javascript"></script>
+</head>
+
+  <body class=" error-page">
+          <!--[if lte IE 6]>
+    <div id="ie6msg_wrapper">
+      <div id="ie6msg">
+        <h4>Did you know that your browser is out of date?</h4>
+        <div id='ie6message'>
+          <p>
+            To get the best possible experience using our website we recommend that you upgrade your browser to a newer version. The current version is
+            <a class="getie8" href="http://upgradeie.s3.amazonaws.com/eng/index.html">Internet Explorer 8</a>.
+            The upgrade is free. If you're using a PC at work you should contact your IT administrator.
+          </p>
+          <p>
+            If you want to you may also try some other popular and <strong>free</strong> Internet browsers like:<br/>
+            <a class="ie6expl" href="http://www.google.com/chrome" target='_blank'>Google Chrome</a>,
+            <a class="ie6expl" href="http://www.apple.com/safari/download/" target='_blank'>Safari</a>,
+            <a class="ie6expl" href="http://getfirefox.com" target='_blank'>Firefox</a> or
+            <a class="ie6expl" href="http://www.opera.com" target='_blank'>Opera</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  <![endif]-->
+    <div id="header">
+      <header role="banner">
+
+
+        <div class="content">
+          <div class="natlib-logo-cont">
+            <a href="/"><img alt="National library of New Zealand Te Puna Mātauranga o Aotearoa" height="53" src="/assets/logo-natlib-8b22fef5bcc88641f62280456c3173a4.png" width="236" /></a>
+            <img class="print" src="/assets/print-natlib.png" alt="print logo" />
+          </div>
+        </div>
+
+        <div id="stripe"></div>
+      </header>
+    </div>
+
+    <div id="container">
+      <div id="main" role="main" class="">
+        <div class="error-wrapper">
+    <div class="record-wrapper">
+        <div class="credits">
+            <p>Chief Librarian, General Assembly Library, 1971.</p>
+            <small><a href="http://natlib.govt.nz/records/23065985">http://natlib.govt.nz/records/23065985</a></small>
+        </div>
+    </div>
+    <div class="message-wrapper">
+        <div class="message">
+            <p>We can't find that page here <span>(It may have moved)</span></p>
+        </div>
+        <div class="search-wrapper">
+            <p class="heading">Let's help you find what you're after</p>
+            <form accept-charset="UTF-8" action="/advanced_searches" class="new_advanced_search" id="new_advanced_search" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="BarnNEUn3Ed8xLPca4Y/0RB6rqk+c+zlsKkxWLtnheY=" /></div>
+              
+
+              <div class="search-box">
+                <input id="advanced_search_text" name="advanced_search[text]" placeholder="enter your search terms..." size="30" type="text" />
+                <input class="btn" name="commit" type="submit" value="Search" />
+                <br />
+                <input id="advanced_search_natlib_content" name="advanced_search[natlib_content]" type="checkbox" value="true" />
+                <label for="advanced_search_natlib_content">Search only website content (blog posts, events etc)</label>
+              </div>
+</form>
+            <div class="popular-pages">
+                <p>Not sure? Have a look through these popular pages:</p>
+                <ul>
+                    <li><a href="/collections">Browse the collections</a></li>
+                    <li><a href="/visiting">Come for a visit</a></li>
+                    <li><a href="/events">See what&#x27;s on</a></li>
+                    <li><a href="/about-us">Learn about the Library</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+      </div> <!-- end of main -->
+    </div> <!-- end of container -->
+
+    <!--[if lte IE 8]>
+  <div id="footer">
+<![endif]-->
+
+
+<footer id="footer" role="contentinfo">
+  <h2 class="access-heading">Footer</h2>
+
+  <div class="stripe"></div>
+  <div class="visiting-footer">
+    <div class="row">
+      <div class="tile">
+  <h3>National Library Wellington</h3>
+
+  <ul>
+    <li>Te Ahumairangi: 8.30am – 5pm</li>
+    <li>Reading Rooms: 10am – 5pm</li>
+    <li>Monday to Saturday</li>
+    <li>Corner Molesworth &amp; Aitken St</li>
+    <li>0800 474 300</li>
+    
+  </ul>
+</div>
+
+<div class="tile">
+  <h3>National Library Auckland</h3>
+
+  <ul>
+    <li>10am – 6pm Monday to Friday</li>
+    <li>8 Stanley Street, Parnell</li>
+    <li>09 365 8800</li>
+    
+  </ul>
+</div>
+
+<div class="tile">
+  <h3>National Library Christchurch</h3>
+<ul>
+    <li>8am – 5pm, Monday to Friday</li>
+    <li>150 Cavendish Road, Casebrook</li>
+    <li>03 366 1075</li>
+</ul>
+</div>
+
+<div class="tile no-line">
+  <h3>National Library Palmerston North</h3>
+  <ul>
+    <li>8.30am – 5pm, Monday to Friday</li>
+    <li>1015 Tremaine Avenue</li>
+    <li>06 353 0475</li>
+</ul>
+</div>  
+    </div>
+  </div>
+
+  <div class="nav">
+    <ul role="navigation">
+      <li><a href="/about-this-site/contact-us">Contact us</a>
+</li>
+<li><a href="/about-this-site/terms-of-use">Terms of use</a>
+</li>
+<li><a href="/about-this-site/copyright-and-privacy">Copyright and privacy</a>
+</li>
+<li><a href="/about-this-site/accessibility-standards">Accessibility</a>
+</li>
+<li><a href="/about-this-site/help">Help</a>
+</li>
+<li><a href="/about-this-site">About this site</a>
+</li>
+<li class="back-to-top"><a href="#">back to top</a>
+</li>
+    </ul>
+  </div>  
+
+  <div class="content">
+    <div>
+      <p><a href="http://newzealand.govt.nz" id="nzgovt-logo">New Zealand Government</a>
+<a href="/" id="natlib-logo">Te Puna Mātauranga o Aotearoa National library of New Zealand</a>
+</p>
+<p>Part of the <a href="http://www.dia.govt.nz">Department of Internal Affairs</a>
+</p>
+    </div>
+  </div>
+</footer>
+<!--[if lte IE 8]>
+  </div>
+<![endif]-->
+
+  </body>
+</html>

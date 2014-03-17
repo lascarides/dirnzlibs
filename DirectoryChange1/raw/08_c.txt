@@ -1,0 +1,12 @@
+GET http://directory.natlib.govt.nz/library-symbols-web/images/icon-computer.gif HTTP/1.1
+Accept: */*
+Referer: http://directory.natlib.govt.nz/library-symbols-web/EditLibraryDetails.html
+Accept-Language: en-nz
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+If-Modified-Since: Tue, 07 Aug 2007 10:01:08 GMT
+If-None-Match: W/"285-1186480868000"
+Host: directory.natlib.govt.nz
+Connection: Keep-Alive
+Cookie: org.apache.tapestry.locale=en; JSESSIONID=220EC74CFBDF59B5F92203931914D321; __uvt=; SERVERID=h; __utmc=141778221; __utma=141778221.1678687185.1372629777.1393875974.1393880292.18; __utmz=141778221.1375739818.4.2.utmcsr=servicedesk.dia.govt.nz|utmccn=(referral)|utmcmd=referral|utmcct=/WorkOrder.do; _researchers_session=BAh7CkkiD3Nlc3Npb25faWQGOgZFRkkiJTZkYTlhYTJjYTg4YmUxYjcwNDQ5MTU4YTZiZDBjYjc3BjsAVEkiCWNhcnQGOwBGWwBJIhF2aWV3aW5nX2NhcnQGOwBGWwBJIhRmYXZvdXJpdGVzX2xpc3QGOwBGWwBJIhBfY3NyZl90b2tlbgY7AEZJIjFCYXJuTkVVbjNFZDh4TFBjYTRZLzBSQjZycWsrYyt6bHNLa3hXTHRuaGVZPQY7AEY%3D--a191d92b7014efb1d27394e8637c4d816e0f6b21; __utmb=141778221.1.10.1393880292; SaneID=172.16.16.158-1372629837656
+

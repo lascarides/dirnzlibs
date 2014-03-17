@@ -1,0 +1,561 @@
+HTTP/1.1 200 OK
+Date: Mon, 03 Mar 2014 21:13:16 GMT
+Server: Apache/1.3.33 (Unix) mod_jk/1.2.6-dev mod_gzip/1.3.26.1a PHP/4.3.9 mod_ssl/2.8.22 OpenSSL/0.9.7e
+Keep-Alive: timeout=30
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+
+1ff8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+<!-- <html jwcid="@Shell"> -->
+<html>
+<head>
+<title>Edit Library Details</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+ 
+<link href="http://www.natlib.govt.nz/favicon.ico" rel="shortcut icon">
+
+
+<script type="text/javascript" src="js/showhide.js"></script>
+<script type="text/javascript" src="js/quicklinks.js"></script>
+<script type="text/javascript" src="js/search_client.js"></script>
+<style type="text/css" media="screen">
+	@import "css/foundation.css";
+	@import "css/error.css";	
+</style>
+<!-- positional fixes for msie6 -->
+<!--[if IE 6]>
+<link rel="stylesheet" href="css/msie6.css" type="text/css" media="screen">
+<![endif]-->
+<!-- box model and font fixes for msie5 -->
+<!--[if IE 5]>
+<link rel="stylesheet" href="css/msie5.css" type="text/css" media="screen">
+<![endif]-->
+<link rel="stylesheet" href="css/print.css" type="text/css"
+	media="print">	
+
+
+</head>
+<!-- Tapestry content starts here -->
+<!--
+<span jwcid="$content$">
+<html jwcid="@Shell" title="ognl:windowTitle" stylesheet="ognl:assets.stylesheet">
+	
+<span jwcid="@Shell" title="ognl:windowTitle" stylesheets="ognl:{ assets.foundation, assets.directory, 
+      assets.msie6, assets.msie5, assets.print, assets.symbols }">
+ -->      
+
+<body>
+<script type="text/javascript" src="/library-symbols-web/assets/557f2081d45a7528f898e7e384717596/org/apache/tapestry/form/Form.js"></script>
+
+<!-- HEADER -->
+
+
+<div id="header">
+	<p><a href="http://www.natlib.govt.nz/" title="National Library of New Zealand - Te Puna M&#257;tauranga o Aotearoa" target="_blank"><strong>NATIONAL LIBRARY<br />OF NEW ZEALAND</strong><br />
+	TE PUNA M&#256;TAURANGA O AOTEAROA</a> <a title="Skip to this page's content" accesskey="[" href="#heading"><img alt="Skip to this page's content" height="1" width="1" src="images/holder.gif"></a> <a href="/library-symbols-web/Home.html#contentcentre" accesskey="3" title="Go to the Search"><img alt="Go to the Search" height="1" width="1" src="images/holder.gif"></a></p>
+</div>
+
+<div id="navcontainer">
+<ul id="navlist">
+	<li><a href="http://www.natlib.govt.nz/about-us">About Us</a></li>
+	<li><a href="http://www.natlib.govt.nz/collections">Collections</a></li>
+	<li><a href="http://www.natlib.govt.nz/services">Services</a></li>
+	<li><a href="http://www.natlib.govt.nz/catalogues">Catalogues &amp; Directories</a></li>
+</ul>
+</div>
+<!-- BREADCRUMBS -->
+<div id="breadcrumb">
+<!-- 
+<div id="quicklinks">
+<ul id="quicknav">
+	<li><a href="http://www.natlib.govt.nz/" id="quickfirst"><span key="quick-links">Quick Links</span></a>
+	<ul>
+		<li><a href="/"><span key="for-libraries">For Libraries</span></a></li>
+		<li><a href="/"><span key="for-teachers">For Teachers</span></a></li>
+		<li><a href="/"><span key="for-researchers">For Researchers</span></a></li>
+		<li><a href="/"><span key="for-students">For Students</span></a></li>
+	</ul>
+	</li>
+</ul>
+</div>
+ -->
+<span id="breadcrumblinks">
+<strong>You are here:</strong> <a href="http://www.natlib.govt.nz">Home</a>
+&gt; <a href="http://www.natlib.govt.nz/catalogues">Catalogues &amp; Directories</a> &gt; <a href="/library-symbols-web/Home.html">Directory of New Zealand Libraries</a>
+ 
+  &gt; Edit Library Details
+ 
+</span>
+ </div>
+<!-- HEADING -->
+<div id="heading">
+
+
+	<h1><a href="/library-symbols-web/Home.html" accesskey="1">DIRECTORY OF NEW ZEALAND LIBRARIES</a></h1>
+ 
+</div>
+
+<!-- LOGGED IN AS -->
+
+
+<div id="logged-in">
+You are logged in as WPIA9FVV | <a href="/library-symbols-web/EditLibraryDetails,$Border.logoutComponent.$DirectLink.sdirect">Logout</a>
+</div>
+
+
+<!-- CENTRE CONTENT -->
+<div id="container">
+<div class="cleaner">&nbsp;</div>  
+ 
+<!-- Body content goes here -->      
+<div>
+ 
+	
+<!-- CENTRE CONTENT -->
+<div id="container-detail">
+<div id="bannerlink"><h4><a href="/library-symbols-web/Home.html">Search Library Directory</a></h4></div>
+<div class="cleaner">&nbsp;</div>
+<form method="post" action="/library-symbols-web/EditLibraryDetails,form.sdirect" name="form" id="form">
+<div style="display:none;"><input type="hidden" name="formids" value="If,If_0,saveTop,addressAddress1,addressAddress2,addressCity,addressCountry,addressPostcode,shippingAddressAddress1,shippingAddressAddress2,shippingAddressCity,shippingAddressCountry,shippingAddressPostcode,website,phone,fax,email,arielIP,note,alternativeName,memberships,specialMembership,For,libraryManagerTitle,libraryManagerFirstName,libraryManagerMiddleName,libraryManagerLastName,libraryManagerPhone,libraryManagerFax,libraryManagerEmail,If_1,libraryManagerTitle_0,libraryManagerFirstName_0,libraryManagerMiddleName_0,libraryManagerLastName_0,libraryManagerPhone_0,libraryManagerFax_0,libraryManagerEmail_0,If_1_0,interloanLibrarians,interloanLibrarianTitle,interloanLibrarianFirstName,interloanLibrarianMiddleName,interloanLibrarianLastName,interloanLibrarianPhone,interloanLibrarianFax,interloanLibrarianEmail,If_2,interloanLibrarianTitle_0,interloanLibrarianFirstName_0,interloanLibrarianMiddleName_0,interloanLibrarianLastName_0,interloanLibrarianPhone_0,interloanLibrarianFax_0,interloanLibrarianEmail_0,If_2_0,If_3,If_4,saveBottom"/>
+<input type="hidden" name="submitmode" value=""/>
+<input type="hidden" name="submitname" value=""/>
+<input type="hidden" name="If" value="F"/>
+<input type="hidden" name="If_0" value="T"/>
+<input type="hidden" name="memberships" value="VOrO0ABXNyAEBuei5nb3Z0Lm5hdGxpYi5zeW1ib2xzLmNvcmUuZG9tYWluLlNlcmlhbGl6YWJsZVNwZWNpYWxNZW1iZXJzaGlwaHNlo5sejVMCAAB4cA=="/>
+<input type="hidden" name="For" value="PSMargaret Davison"/>
+<input type="hidden" name="If_1" value="T"/>
+<input type="hidden" name="For" value="PS"/>
+<input type="hidden" name="If_1_0" value="F"/>
+<input type="hidden" name="interloanLibrarians" value="PSSilone Faoagali"/>
+<input type="hidden" name="If_2" value="T"/>
+<input type="hidden" name="interloanLibrarians" value="PS"/>
+<input type="hidden" name="If_2_0" value="F"/>
+<input type="hidden" name="If_3" value="F"/>
+<input type="hidden" name="If_4" value="T"/>
+</div>
+
+	<div id="container-links">
+		<table summary="Form actions" class="centre-table">	
+		<tr>
+			<td>
+							
+			</td>
+			<td>
+				  			  
+					<input type="submit" name="saveTop" id="saveTop" value="Save Changes" class="searchbutton"/>
+				  			
+			</td>
+		</tr>
+		</table>	
+	</div>	
+	<div style="color: red; font-weight: bold; text-align: center">&nbsp;</div>		
+<!-- contact information -->
+	<div class="contact-frame">
+		<div class="contact-heading">
+			<h2>Ministry of Pacific Island Affairs</h2>
+			<h3></h3>
+		</div>		
+		<div class="contact-left"><h3>Contact Information</h3></div>
+		<div class="contact-table-holder">
+
+			<table summary="Contact Information" class="contact-table">
+			<caption>Contact Information</caption>
+			<tr>
+        		<td class="tcontact-left">Library Symbol:</td>
+				<td>WPIA</td>
+			</tr>
+			  <tr>
+				<td class="tcontact-left"><img alt="Postal Address" src="images/icon-post-address.gif" height="16" width="17" />Postal address:</td>
+				<td></td>
+			  </tr>		
+			  <tr>
+			  	<td class="tcontact-left"><label for="addressAddress1">address 1</label>:</td>
+			  	<td><input type="text" name="addressAddress1" value="PO Box 833" id="addressAddress1" class="detailtext"/></td>
+			  </tr>				  
+			  <tr>
+			  	<td class="tcontact-left"><label for="addressAddress2">address 2</label>:</td>
+			  	<td><input type="text" name="addressAddress2" value="" id="addressAddress2" class="detailtext"/></td>
+			  </tr>	
+			  <tr>
+			  	<td class="tcontact-left"><label for="addressCity">city</label>:</td>
+			  	<td><input type="text" name="addressCity" value="Wellington" id="addressCity" class="detailtext"/></td>
+			  </tr>				  			
+			  <tr>
+			  	<td class="tcontact-left"><label for="addressCountry">country</label>:</td>
+			  	<td><input type="text" name="addressCountry" value="New Zealand" id="addressCountry" class="detailtext"/></td>
+			  </tr>				  
+			  <tr>
+			  	<td class="tcontact-left"><label for="addressPostcode">post code</label>:</td>
+			  	<td><input type="text" name="addressPostcode" value="6140"
+8  
+ id="add
+1ff8
+ressPostcode" class="detailtext"/></td>
+			  </tr>							  			
+			  <tr>
+				<td class="tcontact-left"><img alt="Street  Address" src="images/icon-street-address.gif" height="16" width="17" />Street address:</td>
+				<td></td>
+			  </tr>				
+			  <tr>
+			  	<td class="tcontact-left"><label for="shippingAddressAddress1">address 1</label>:</td>
+			  	<td><input type="text" name="shippingAddressAddress1" value="Level 2, ASB House" id="shippingAddressAddress1" class="detailtext"/></td>
+			  </tr>				  
+			  <tr>
+			  	<td class="tcontact-left"><label for="shippingAddressAddress2">address 2</label>:</td>
+			  	<td><input type="text" name="shippingAddressAddress2" value="101-103 The Terrace" id="shippingAddressAddress2" class="detailtext"/></td>
+			  </tr>	
+			  <tr>
+			  	<td class="tcontact-left"><label for="shippingAddressCity">city</label>:</td>
+			  	<td><input type="text" name="shippingAddressCity" value="Wellington" id="shippingAddressCity" class="detailtext"/></td>
+			  </tr>				  			
+			  <tr>
+			  	<td class="tcontact-left"><label for="shippingAddressCountry">country</label>:</td>
+			  	<td><input type="text" name="shippingAddressCountry" value="New Zealand" id="shippingAddressCountry" class="detailtext"/></td>
+			  </tr>				  
+			  <tr>
+			  	<td class="tcontact-left"><label for="shippingAddressPostcode">post code</label>:</td>
+			  	<td><input type="text" name="shippingAddressPostcode" value="" id="shippingAddressPostcode" class="detailtext"/></td>
+			  </tr>				
+			  <tr>
+			  	<td class="tcontact-left"><img alt="Website" src="images/icon-computer.gif" height="16" width="21" /><label for="website">Website</label>:</td>
+			  	<td><input type="text" name="website" value="www.mpia.govt.nz" id="website" class="detailtext"/></td>
+			  </tr>				
+			  <tr>
+			  	<td class="tcontact-left"><img alt="Main Phone" src="images/icon-phone.gif" height="21" width="9" /><label for="phone">Main Phone</label>:</td>
+			  	<td><input type="text" name="phone" value="+64 4 473 4493" id="phone" class="detailtext"/></td>
+			  </tr>				
+			  <tr>
+			  	<td class="tcontact-left"><img alt="Main Fax" src="images/icon-fax.gif" height="16" width="17" /><label for="fax">Main Fax</label>:</td>
+			  	<td><input type="text" name="fax" value="+64 4 473 4301" id="fax" class="detailtext"/></td>
+			  </tr>			
+			  <tr>
+			  	<td class="tcontact-left"><label for="email">Email</label>:</td>
+			  	<td><input type="text" name="email" value="debbie.mcleod@mpia.govt.nz" id="email" class="detailtext"/></td>
+			  </tr>		
+	          <tr>
+		        <td class="tcontact-left"><label for="arielIP">ARIEL IP</label>:</td>
+		        <td><input type="text" name="arielIP" value="" id="arielIP" class="detailtext" size="15"/></td>
+	          </tr>				  
+			  <tr>			  
+			  	<td class="tcontact-left"><label for="note">General Notes</label>:</td>
+			  	<td><textarea name="note" id="note" cols="42" rows="3" wrap="virtual">Interloans are handled by Silone Faoagali, Auckland Office.</textarea></td>
+			  </tr>			  			  			
+			</table>
+		</div>
+		<div class="cleaner">&nbsp;</div>
+	</div>
+<!-- alternate names and special memberships -->
+	<div class="contact-frame">
+		<div class="contact-left"><h3>Additional Information</h3></div>
+		<!--	
+		<div class="ls-category"><span key=general-notes>General Notes</span>:</div>
+		<div class="ls-table-holder">
+	        <table summary="General Notes" class="ls-edit-table">
+		      <tr>
+			     <td class="ltcontact-left"><label jwcid="@FieldLabel" field="component:note">Note</label>:</td>
+				 <td><input type="text" jwcid="note" size="128" class="detailtext" /></td>	     			     
+			     <td><input type="text" jwcid="note" size="128" class="detailtext" /></td>
+		      </tr>
+	        </table>		        
+        <div class="cleaner">&nbsp;</div>	
+		<div class="contact-left">&nbsp;</div>					
+		-->
+		<div class="ls-category">Alternate Names:</div>
+		<div class="ls-table-holder">
+			<table summary="Alternate Names" class="ls-edit-table">
+			<tr>
+			  	<td class="ls-edit-title"><label for="alternativeName">Name</label></td>
+  				<td><input type="text" name="alternativeName" value="" id="alternativeName" size="128" class="detailtext-sm"/></td>	  						  					
+			</tr>
+			</table>
+		</div>
+		<div class="cleaner">&nbsp;</div>		
+		<div class="contact-left">&nbsp;</div>			
+		<div class="ls-category">Special Memberships:</div>		
+		<div class="ls-table-holder">
+			<table summary="Special Memberships" class="ls-edit-table">
+			<!--
+			<tr jwcid="memberships@Foreach" source="ognl:library.specialMemberships" value="ognl:specialMembership" keyExpression="id" element="tr">
+			  	<td class="ls-edit-title"><label jwcid="@FieldLabel" field="component:specialMembership">Title</label></td>
+  				<td><select jwcid="specialMembership@PropertySelection" value="ognl:specialMembership.membership" model="ognl:specialMembershipSelectionModel" class="detailtext-sm" displayName="message:specialMembership-label"/></td>  						  					
+			</tr>
+			-->				
+			<tr>
+			  	<td class="ls-edit-title"><label for="specialMembership">Membership</label></td>
+  				<td><select name="specialMembership" id="specialMembership" class="detailtext-sm">
+<option value=""></option>
+<option value="ANZTLA : Australian &amp; NZ Theologica">ANZTLA : Australian &amp; NZ Theologica</option>
+<option value="Ed libs : Education Libraries">Ed libs : Education Libraries</option>
+<option value="HealthLi : HealthLib Inc">HealthLi : HealthLib Inc</option>
+<option value="NZLLA : NZ Law Libraries Associatio">NZLLA : NZ Law Libraries Associatio</option>
+</select></td>  						  					
+			</tr>					
+			</table>
+		</div>			
+		<div class="cleaner">&nbsp;</div>
+	</div>			
+<!-- library managers -->
+	<div class="contact-frame">	
+		<div class="contact-left"><h3>Library Manager(s)</h3></div>
+		 							
+		<div class="ls-category">Library Manager:</div>		
+		<div class="ls-table-holder">
+			<table summary="Library Staff" class="ls-edit-table">
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerTitle">Title</label></td>
+			  	<td><input type="text" name="libraryManagerTitle" value="Director Policy and Research" id="libraryManagerTitle" class="detailtext-sm"/></td>
+			  </tr>	
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerFirstName">First Name</label></td>
+			  	<td><input type="text" name="libraryManagerFirstName" value="Margaret" id="libraryManagerFirstName" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerMiddleName">Middle Name</label></td>
+			  	<td><input type="text" name="libraryManagerMiddleName" value="" id="libraryManagerMiddleName" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerLastName">Last Name</label></td>
+			  	<td><input type="text" name="libraryManagerLastName" value="Davison" id="libraryManagerLastName" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerPhone">Internal Phone</label></td>
+			  	<td><input type="text" name="libraryManagerPhone" value="+64 4 473 4493" id="libraryManagerPhone" class="detailtext-sm"/></td>
+			  </tr>			  			  			  			  			
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerFax">Internal Fax</label></td>
+			  	<td><input type="text" name="libraryManagerFax" value="+64 4 473 4301" id="libraryManagerFax" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerEmail">Internal Email</label></td>
+			  	<td><input type="text" name="libraryManagerEmail" value="margaret.davison@mpia.govt.nz" id="libraryManagerEmail" class="detailtext-sm"/></td>
+			  </tr>			  
+			</table>			  		
+		</div>					
+		<div class="cleaner">&nbsp;</div> 
+		 
+ 			<div class="contact-left">&nbsp;</div>											
+													
+		 							
+		<div class="ls-category">Library Manager:</div>		
+		<div class="ls-table-holder">
+			<table summary="Library Staff" class="ls-edit-table">
+			  <tr>
+			  	<td class="ls-
+8  
+edit-tit
+1ff8
+le"><label for="libraryManagerTitle_0">Title</label></td>
+			  	<td><input type="text" name="libraryManagerTitle_0" value="" id="libraryManagerTitle_0" class="detailtext-sm"/></td>
+			  </tr>	
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerFirstName_0">First Name</label></td>
+			  	<td><input type="text" name="libraryManagerFirstName_0" value="" id="libraryManagerFirstName_0" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerMiddleName_0">Middle Name</label></td>
+			  	<td><input type="text" name="libraryManagerMiddleName_0" value="" id="libraryManagerMiddleName_0" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerLastName_0">Last Name</label></td>
+			  	<td><input type="text" name="libraryManagerLastName_0" value="" id="libraryManagerLastName_0" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerPhone_0">Internal Phone</label></td>
+			  	<td><input type="text" name="libraryManagerPhone_0" value="" id="libraryManagerPhone_0" class="detailtext-sm"/></td>
+			  </tr>			  			  			  			  			
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerFax_0">Internal Fax</label></td>
+			  	<td><input type="text" name="libraryManagerFax_0" value="" id="libraryManagerFax_0" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="libraryManagerEmail_0">Internal Email</label></td>
+			  	<td><input type="text" name="libraryManagerEmail_0" value="" id="libraryManagerEmail_0" class="detailtext-sm"/></td>
+			  </tr>			  
+			</table>			  		
+		</div>					
+		<div class="cleaner">&nbsp;</div> 
+													
+			
+	</div>	<!-- End Contact Frame -->			
+	<!-- Interloan Librarian(s) -->
+	<div class="cleaner">&nbsp;</div>	
+	<div class="contact-frame">				
+	<div class="contact-left"><h3>Interloan Librarian(s)</h3></div>
+	<!--	
+	<div class="ls-table-holder"></div>
+       <table summary="Ariel IP" class="ls-edit-table">
+	      <tr>
+		     <td class="ls-edit-title"><label jwcid="@FieldLabel" field="component:arielIP">ARIEl IP</label>:</td>
+		     <td><input type="text" jwcid="arielIP" size="128" class="detailtext" /></td>
+	      </tr>
+       </table>	
+	<div class="cleaner">&nbsp;</div>		
+	<div class="contact-left">&nbsp;</div>		        
+	-->
+		 										
+		<div class="ls-category">Interloan Librarian:</div>
+		<div class="ls-table-holder">
+			<table summary="Library Staff" class="ls-edit-table">
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianTitle">Title</label></td>
+			  	<td><input type="text" name="interloanLibrarianTitle" value="" id="interloanLibrarianTitle" class="detailtext-sm"/></td>
+			  </tr>	
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianFirstName">First Name</label></td>
+			  	<td><input type="text" name="interloanLibrarianFirstName" value="Silone" id="interloanLibrarianFirstName" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianMiddleName">Middle Name</label></td>
+			  	<td><input type="text" name="interloanLibrarianMiddleName" value="" id="interloanLibrarianMiddleName" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianLastName">Last Name</label></td>
+			  	<td><input type="text" name="interloanLibrarianLastName" value="Faoagali" id="interloanLibrarianLastName" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianPhone">Internal Phone</label></td>
+			  	<td><input type="text" name="interloanLibrarianPhone" value="+64 9 262 6829" id="interloanLibrarianPhone" class="detailtext-sm"/></td>
+			  </tr>			  			  			  			  			
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianFax">Internal Fax</label></td>
+			  	<td><input type="text" name="interloanLibrarianFax" value="+64 4 473 4301" id="interloanLibrarianFax" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianEmail">Internal Email</label></td>
+			  	<td><input type="text" name="interloanLibrarianEmail" value="silone.faoagali@mpia.govt.nz" id="interloanLibrarianEmail" class="detailtext-sm"/></td>
+			  </tr>			  
+			</table>
+	</div>	
+	<div class="cleaner">&nbsp;</div> 
+	 
+		<div class="contact-left">&nbsp;</div>											
+		
+	 										
+		<div class="ls-category">Interloan Librarian:</div>
+		<div class="ls-table-holder">
+			<table summary="Library Staff" class="ls-edit-table">
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianTitle_0">Title</label></td>
+			  	<td><input type="text" name="interloanLibrarianTitle_0" value="" id="interloanLibrarianTitle_0" class="detailtext-sm"/></td>
+			  </tr>	
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianFirstName_0">First Name</label></td>
+			  	<td><input type="text" name="interloanLibrarianFirstName_0" value="" id="interloanLibrarianFirstName_0" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianMiddleName_0">Middle Name</label></td>
+			  	<td><input type="text" name="interloanLibrarianMiddleName_0" value="" id="interloanLibrarianMiddleName_0" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianLastName_0">Last Name</label></td>
+			  	<td><input type="text" name="interloanLibrarianLastName_0" value="" id="interloanLibrarianLastName_0" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianPhone_0">Internal Phone</label></td>
+			  	<td><input type="text" name="interloanLibrarianPhone_0" value="" id="interloanLibrarianPhone_0" class="detailtext-sm"/></td>
+			  </tr>			  			  			  			  			
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianFax_0">Internal Fax</label></td>
+			  	<td><input type="text" name="interloanLibrarianFax_0" value="" id="interloanLibrarianFax_0" class="detailtext-sm"/></td>
+			  </tr>
+			  <tr>
+			  	<td class="ls-edit-title"><label for="interloanLibrarianEmail_0">Internal Email</label></td>
+			  	<td><input type="text" name="interloanLibrarianEmail_0" value="" id="interloanLibrarianEmail_0" class="detailtext-sm"/></td>
+			  </tr>			  
+			</table>
+	</div>	
+	<div class="cleaner">&nbsp;</div> 
+		
+		
+	<div class="cleaner">&nbsp;</div>
+	</div>
+<!-- interloan details -->
+	<div class="contact-frame">
+		<div class="contact-left"><h3>Interloan Details</h3></div>
+		<div class="contact-table-holder">
+			<table summary="Interloan Details" class="contact-table2">
+			<caption>Interloan Details</caption> 
+			<tr>
+       			<td class="tcontact-left2">Reciprocal Arrangements:</td>
+       			<td></td>
+				</tr>								
+			<tr>
+       			<td class="tcontact-left2">Member of NZ Interloan Scheme:</td>
+       			<td>Yes</td>       			    			
+			</tr>
+			<tr>
+       			<td class="tcontact-left2">Member of Te Puna Interloan Scheme:</td>
+       			<td>Yes</td>        			      			
+			</tr>			
+			<tr>
+       			<td class="tcontact-left2">Status in NZ Interloan Scheme:</td>
+       			<td>Non-Charter</td>        			
+			</tr>
+			<tr>
+       			<td class="tcontact-left2">IBS Member:</td>
+       			<td>No</td>        			
+			</tr>
+			</table>
+			<div class="cleaner">&nbsp;</div>
+		</div>
+	<div class="cleaner">&nbsp;</div>
+<!-- interloan charges -->
+<!-- Not shown when the Library has a status of Non-Charter -->
+
+	</div>
+	<div style="color: red; font-weight: bold; text-align: center">&nbsp;</div>			
+	<div class="centred-text">
+		<p>
+		  			  
+			<input type="submit" name="saveBottom" id="saveBottom" value="Save Changes" class="searchbutton"/>
+		  		
+		</p>
+	</div>
+	</form>	
+	<div class="cleaner">&nbsp;</div>
+</div>
+
+</div>
+<!-- Body content ends here -->
+<div class="cleaner">&nbsp;</div>
+</div>
+<!-- End page Content --
+8  
+>
+<!-- F
+51e
+OOTER -->
+<div id="footer">
+<div id="footer-links">
+<a href="/library-symbols-web/Help.html#directory" target="_blank" accesskey="8">About this site</a> | 
+<a href="/library-symbols-web/Contact.html" target="_blank" accesskey="9" title="Contact details">Contact details</a> | 
+<a href="/library-symbols-web/Accessibility.html" target="_blank" accesskey="0" title="Site accessibility information including access keys">Accessibility</a> | 
+<!--
+<a jwcid="@PageLink" page="Help" title="Legal Statements"><span key="legal-statements">Legal Statements</span></a> | 
+-->
+<a href="http://www.govt.nz/" target="_blank" accesskey="/" title="External link to the New Zealand Government website">govt.nz</a>
+</div>
+<a href="http://www.natlib.govt.nz/" target="_blank"> <img src="/library-symbols-web/images/natlib-logo.gif" width="210" alt="National Library of New Zealand - Te Puna M&amp;#257;tauranga o Aotearoa" height="40"/> </a>
+
+<a href="/library-symbols-web/Home.html#directory" accesskey="3" title="Library Symbols Search"></a>
+<a href="Home,$Border.logoutComponent.$DirectLink.sdirect" accesskey="7" title="Logout"></a>
+	
+</div>
+
+<script language="JavaScript" type="text/javascript"><!--
+Tapestry.register_form('form');
+Tapestry.set_focus('saveTop');
+
+// --></script></body>
+<!-- 
+</span>
+</span>
+ -->
+</html>
+
+0
+

@@ -1,0 +1,66 @@
+Directory of NZ Libraries - Go-live Checklist
+
+Time for Kay to test
+	- There will be a cut-off for Rowan and Michael to finish work
+	- Hand off to Jenny/Kaye for final acceptance
+
+Another dump of data for final acceptance
+	- Need to get new export from Kevin
+	- Interloan fax, emails cleanup, etc.
+	- Updating scripts for import
+
+Final/Production data dump
+	- Needs to be timed
+	- Cutoff of content edits on the old site
+	
+Comms around the site move
+	- NZLibs mailing list announcement
+		- Announce when the move is happening
+		- Announce when the data can no longer be updated.
+	- Simon to update the existing site?
+		- Messaging about the move
+		- Remove the ability to log in from old site
+
+DNS redirect
+	- Boost to set up production redirects (This can happen at any time)
+	- TSS archiving rules?
+	- TSS to update domain name pointer
+
+
+THINGS TO DO NOW
+================
+
+1. Contact TSS
+	- Tell them that we'll be switching domain name and need to schedule a precise time for it
+	- We need a dump of data now, and will need another one coincident with go-live
+	- Find out if TSS can make changes to old site
+2. Deployment prep story for Boost.
+	- Path redirects for directory.natlib
+	- Import UAT data
+3. Comms around launch
+	- Prepare communications for all phases
+	- Let NZLibs know that change is coming
+	- Post note on the old site about impending move
+	
+THINGS TO DO DURING GO LIVE
+===========================
+1. Comms around launch
+	- Block users from accessing old site. Let them know migration is in process
+2. Boost deploys code branch to prod.
+3. Data Dump of production data
+	- Comes in from TSS
+	- Gets turned around by Boost
+3. DNS
+	- Domain name redirect
+
+
+THINGS TO DO AFTER LAUNCH
+=========================
+
+1. Update any links from any of our external web sites to point at Natlib and not old directory URL.
+
+
+
+
+
+

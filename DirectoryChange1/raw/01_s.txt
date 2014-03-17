@@ -1,0 +1,9 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Mon, 03 Mar 2014 21:05:18 GMT
+Server: Apache/1.3.33 (Unix) mod_jk/1.2.6-dev mod_gzip/1.3.26.1a PHP/4.3.9 mod_ssl/2.8.22 OpenSSL/0.9.7e
+Location: http://directory.natlib.govt.nz/library-symbols-web/EditLibraryDetails.html
+Content-Length: 0
+Keep-Alive: timeout=30
+Connection: Keep-Alive
+Content-Type: text/plain
+

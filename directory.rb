@@ -6,10 +6,19 @@ outputs = {}
 
 @regions = {
 	 "Auckland" => "Auckland",
+	 "Manukau" => "Auckland",
+	 "Manukau City" => "Auckland",
+	 "Orewa" => "Auckland",
+	 "Pukekohe" => "Auckland",
+	 "Snells Beach" => "Auckland",
+	 "Whangaparaoa" => "Auckland",
+	 "Waitakere" => "Auckland",
+	 "North Shore City" => "Auckland",
 	 "Kawerau" => "Bay of Plenty",
 	 "Opotiki" => "Bay of Plenty",
 	 "Rotorua" => "Bay of Plenty",
 	 "Tauranga" => "Bay of Plenty",
+	 "Katikati" => "Bay of Plenty",
 	 "Te Puke" => "Bay of Plenty",
 	 "Whakatane" => "Bay of Plenty",
 	 "Amberley" => "Canterbury",
@@ -20,13 +29,16 @@ outputs = {}
 	 "Kaikoura" => "Canterbury",
 	 "Lincoln" => "Canterbury",
 	 "Rangiora" => "Canterbury",
+	 "Rolleston" => "Canterbury",
 	 "Timaru" => "Canterbury",
+	 "Twizel" => "Canterbury",
 	 "Waimate" => "Canterbury",
 	 "Gisborne" => "Gisborne",
 	 "Hastings" => "Hawkes Bay",
 	 "Havelock North" => "Hawkes Bay",
 	 "Napier" => "Hawkes Bay",
 	 "Waipawa" => "Hawkes Bay",
+	 "Waipukurau" => "Hawkes Bay",
 	 "Wairoa" => "Hawkes Bay",
 	 "Dannevirke" => "Manawatu-Whanganui",
 	 "Feilding" => "Manawatu-Whanganui",
@@ -36,6 +48,8 @@ outputs = {}
 	 "Taumarunui" => "Manawatu-Whanganui",
 	 "Waiouru" => "Manawatu-Whanganui",
 	 "Wanganui" => "Manawatu-Whanganui",
+	 "Raetihi" => "Manawatu-Whanganui",
+	 "Ohakune" => "Manawatu-Whanganui",
 	 "Blenheim" => "Marlborough",
 	 "Nelson" => "Nelson",
 	 "Dargaville" => "Northland",
@@ -45,8 +59,10 @@ outputs = {}
 	 "New Plymouth" => "Taranaki",
 	 "Stratford" => "Taranaki",
 	 "Richmond" => "Tasman",
+	 "Motueka" => "Tasman",
 	 "Cambridge" => "Waikato",
 	 "Hamilton" => "Waikato",
+	 "Hamilton East" => "Waikato",
 	 "Matamata" => "Waikato",
 	 "Ngaruawahia" => "Waikato",
 	 "Otorohanga" => "Waikato",
@@ -55,6 +71,13 @@ outputs = {}
 	 "Te Kuiti" => "Waikato",
 	 "Thames" => "Waikato",
 	 "Tokoroa" => "Waikato",
+	 "Te Awamutu" => "Waikato",
+	 "Raglan" => "Waikato",
+	 "Huntly" => "Waikato",
+	 "Turangi" => "Waikato",
+	 "Mangakino" => "Waikato",
+	 "Morrinsville" => "Waikato",
+	 "Te Aroha" => "Waikato",
 	 "Carterton" => "Wellington",
 	 "Featherston" => "Wellington",
 	 "Greytown" => "Wellington",
@@ -63,7 +86,9 @@ outputs = {}
 	 "Otaki" => "Wellington",
 	 "Paraparaumu" => "Wellington",
 	 "Porirua" => "Wellington",
+	 "Masterton" => "Wellington",
 	 "Upper Hutt" => "Wellington",
+	 "Lower Hutt" => "Wellington",
 	 "Wellington" => "Wellington",
 	 "Greymouth" => "West Coast",
 	 "Hokitika" => "West Coast",
@@ -74,6 +99,7 @@ outputs = {}
 	 "Dunedin" => "Otago",
 	 "Oamaru" => "Otago",
 	 "Queenstown" => "Otago",
+	 "Arrowtown" => "Otago",
 	 "Wanaka" => "Otago",
 	 "Gore" => "Southland",
 	 "Invercargill" => "Southland",
@@ -520,6 +546,13 @@ CSV.foreach('directory.csv', :headers => true) do |row|
 	@row = row
 	multiple_interloans = false
 
+	# Fix shortened postcode
+	['Street Post Code', 'Postal Post Code'].each do |code_label|
+		if @row[code_label].to_s.length == 3
+			@row[code_label] = "0#{@row[code_label]}"
+		end
+	end
+
 	if outputs[@row['Symbol']].nil?
 		outputs[@row['Symbol']] = @row
 	else
@@ -557,18 +590,43 @@ CSV.foreach('directory.csv', :headers => true) do |row|
 		end
 	end
 
+	# Concat addresses
+	row['Street Address'] = [
+		row['Street Address 1'], 
+		row['Street Address 2'],
+		row['Street Address 3'],
+		row['Street Address 4'],
+		row['Street City'], 
+		row['Street Post Code'],
+		row['Street State']
+	].compact.join(', ') 
+
+	row['Postal Address'] = [
+		row['Postal Address 1'], 
+		row['Postal Address 2'],
+		row['Postal Address 3'],
+		row['Postal Address 4'],
+		row['Postal City'], 
+		row['Postal Post Code'],
+		row['Postal State']
+	].compact.join(', ') 
+
 	# Add city, state, region, lat, long
-	row['City'] = row['Street Address'].gsub(/.*,([A-Za-z' ]*)[^,]*$/, '\1').strip
-	row['City'].gsub("rHutt", 'r Hutt')
-	row['City'].gsub("New Zealand", 'Wellington')
+	row['City'] = row['Street City'].to_s.strip
+	row['City'].gsub!(/\d/, '')
+	row['City'].gsub!("rHutt", 'r Hutt')
+	row['City'].gsub!("New Zealand", 'Wellington')
+	row['City'].strip!
 	row['Region'] = @regions[row['City']]
 	unless @coords[row['Symbol']].nil?
 		row['Latitude'] = @coords[row['Symbol']][0]
 		row['Longitude'] = @coords[row['Symbol']][1]
 	end
 
-end
+	# Both status fields are the same.
+	row['NZ Int scheme member'] = row['Status in NZ IL Scheme']
 
+end
 
 cols = "Name,Library Type,Account Type,Account Status,Maori Name,Symbol,Street Address,Postal Address,Web Address,Main phone,Main Fax,Email,Notes,Alternative Names,NZ Int scheme member,Special Memberships,Manager,Library Manager Title,Manager email,Library Manager Fax,Library Manager Phone,Interloan Librarian,Interloan Librarian Title,Email interloan,Phone interloan,Fax interloan,Alt Interloan Librarian,Alt Interloan Librarian Title,Alt Email interloan,Alt Phone interloan,Alt Fax interloan,Reciprocal Arrangements,Te Puna int member,Status in NZ IL Scheme,Library Status,IBS member,Std Loan standard charge,Std Loan International Charge,Std Copy Standard Charge,Std Copy International Charge,Std Notes,International Notes,Urgent loan Standard Charge,Urgent Loan International Charge,Urgent Copy Standard Charge,Urgent Copy International Charge,City,Region,Latitude,Longitude"
 

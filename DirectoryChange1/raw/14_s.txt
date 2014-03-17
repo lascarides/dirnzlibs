@@ -1,0 +1,11 @@
+HTTP/1.1 407 Proxy Authentication Required ( Access is denied.  )
+Via: 1.1 WLGPRDTMG03
+Proxy-Authenticate: Negotiate TlRMTVNTUAACAAAABgAGADgAAAAFgomiYebgd5zUDpYAAAAAAAAAAJoAmgA+AAAABgGxHQAAAA9EAEkAQQACAAYARABJAEEAAQAWAFcATABHAFAAUgBEAFQATQBHADAAMwAEABYAZABpAGEALgBnAG8AdgB0AC4AbgB6AAMALgBXAEwARwBQAFIARABUAE0ARwAwADMALgBkAGkAYQAuAGcAbwB2AHQALgBuAHoABQAWAGQAaQBhAC4AZwBvAHYAdAAuAG4AegAHAAgApGKtTyQ3zwEAAAAA
+Connection: Keep-Alive
+Proxy-Connection: Keep-Alive
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Type: text/html
+Content-Length: 0
+Proxy-Support: Session-Based-Authentication
+
